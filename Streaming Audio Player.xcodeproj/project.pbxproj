@@ -12,6 +12,8 @@
 		8CFCE2822222516700FF8197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCE2802222516700FF8197 /* Main.storyboard */; };
 		8CFCE2842222516900FF8197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCE2832222516900FF8197 /* Assets.xcassets */; };
 		8CFCE2872222516900FF8197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCE2852222516900FF8197 /* LaunchScreen.storyboard */; };
+		8CFCE28F22225DC800FF8197 /* Downloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCE28E22225DC800FF8197 /* Downloading.swift */; };
+		8CFCE29122225F8600FF8197 /* DownloadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCE29022225F8600FF8197 /* DownloadingState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8CFCE2832222516900FF8197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CFCE2862222516900FF8197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CFCE2882222516900FF8197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFCE28E22225DC800FF8197 /* Downloading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloading.swift; sourceTree = "<group>"; };
+		8CFCE29022225F8600FF8197 /* DownloadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				8CFCE27C2222516600FF8197 /* AppDelegate.swift */,
 				8CFCE27E2222516600FF8197 /* ViewController.swift */,
+				8CFCE28E22225DC800FF8197 /* Downloading.swift */,
+				8CFCE29022225F8600FF8197 /* DownloadingState.swift */,
 				8CFCE2802222516700FF8197 /* Main.storyboard */,
 				8CFCE2832222516900FF8197 /* Assets.xcassets */,
 				8CFCE2852222516900FF8197 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFCE29122225F8600FF8197 /* DownloadingState.swift in Sources */,
+				8CFCE28F22225DC800FF8197 /* Downloading.swift in Sources */,
 				8CFCE27F2222516600FF8197 /* ViewController.swift in Sources */,
 				8CFCE27D2222516600FF8197 /* AppDelegate.swift in Sources */,
 			);
