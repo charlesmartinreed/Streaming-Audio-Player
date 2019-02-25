@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C1AE3ED2223693100755534 /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1AE3EC2223693100755534 /* Parsing.swift */; };
 		8CC888A42223600A004C124D /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC888A32223600A004C124D /* Downloader.swift */; };
 		8CFCE27D2222516600FF8197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCE27C2222516600FF8197 /* AppDelegate.swift */; };
 		8CFCE27F2222516600FF8197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCE27E2222516600FF8197 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C1AE3EC2223693100755534 /* Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
 		8CC888A32223600A004C124D /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		8CFCE2792222516600FF8197 /* Streaming Audio Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Streaming Audio Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFCE27C2222516600FF8197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C1AE3EB2223692000755534 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				8C1AE3EC2223693100755534 /* Parsing.swift */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		8CC888A52223683D004C124D /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				8CFCE28E22225DC800FF8197 /* Downloading.swift */,
+				8CC888A32223600A004C124D /* Downloader.swift */,
+				8CFCE29022225F8600FF8197 /* DownloadingState.swift */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
 		8CFCE2702222516600FF8197 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +80,10 @@
 		8CFCE27B2222516600FF8197 /* Streaming Audio Player */ = {
 			isa = PBXGroup;
 			children = (
+				8C1AE3EB2223692000755534 /* Parse */,
 				8CFCE27C2222516600FF8197 /* AppDelegate.swift */,
 				8CFCE27E2222516600FF8197 /* ViewController.swift */,
-				8CFCE29022225F8600FF8197 /* DownloadingState.swift */,
-				8CFCE28E22225DC800FF8197 /* Downloading.swift */,
-				8CC888A32223600A004C124D /* Downloader.swift */,
+				8CC888A52223683D004C124D /* Download */,
 				8CFCE2802222516700FF8197 /* Main.storyboard */,
 				8CFCE2832222516900FF8197 /* Assets.xcassets */,
 				8CFCE2852222516900FF8197 /* LaunchScreen.storyboard */,
@@ -148,6 +167,7 @@
 				8CFCE29122225F8600FF8197 /* DownloadingState.swift in Sources */,
 				8CFCE28F22225DC800FF8197 /* Downloading.swift in Sources */,
 				8CFCE27F2222516600FF8197 /* ViewController.swift in Sources */,
+				8C1AE3ED2223693100755534 /* Parsing.swift in Sources */,
 				8CFCE27D2222516600FF8197 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,7 +6,6 @@
 //  Copyright © 2019 Charles Martin Reed. All rights reserved.
 //
 //  Downloading is a Protocol used to fetch audio data over the internet when presented with a URL
-
 import Foundation
 import UIKit
 
