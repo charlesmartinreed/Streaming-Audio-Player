@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CC888A42223600A004C124D /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC888A32223600A004C124D /* Downloader.swift */; };
 		8CFCE27D2222516600FF8197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCE27C2222516600FF8197 /* AppDelegate.swift */; };
 		8CFCE27F2222516600FF8197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCE27E2222516600FF8197 /* ViewController.swift */; };
 		8CFCE2822222516700FF8197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCE2802222516700FF8197 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CC888A32223600A004C124D /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		8CFCE2792222516600FF8197 /* Streaming Audio Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Streaming Audio Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFCE27C2222516600FF8197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFCE27E2222516600FF8197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,8 +62,9 @@
 			children = (
 				8CFCE27C2222516600FF8197 /* AppDelegate.swift */,
 				8CFCE27E2222516600FF8197 /* ViewController.swift */,
-				8CFCE28E22225DC800FF8197 /* Downloading.swift */,
 				8CFCE29022225F8600FF8197 /* DownloadingState.swift */,
+				8CFCE28E22225DC800FF8197 /* Downloading.swift */,
+				8CC888A32223600A004C124D /* Downloader.swift */,
 				8CFCE2802222516700FF8197 /* Main.storyboard */,
 				8CFCE2832222516900FF8197 /* Assets.xcassets */,
 				8CFCE2852222516900FF8197 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC888A42223600A004C124D /* Downloader.swift in Sources */,
 				8CFCE29122225F8600FF8197 /* DownloadingState.swift in Sources */,
 				8CFCE28F22225DC800FF8197 /* Downloading.swift in Sources */,
 				8CFCE27F2222516600FF8197 /* ViewController.swift in Sources */,

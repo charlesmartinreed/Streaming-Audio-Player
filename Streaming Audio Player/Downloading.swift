@@ -32,7 +32,8 @@ public protocol Downloading: class {
 }
 
 public protocol DownloadingDelegate: class {
+    //receives the binary audio data, notifies or state, errors
     func download(_ download: Downloading, changedState state: DownloadingState)
     func download(_ download: Downloading, completedWithError error: Error?)
-    func download(_ download: Downloading, didReceivedData data: Data, progress: Float)
+    func download(_ download: Downloading, didReceiveData data: Data, progress: Float)
 }
